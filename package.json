@@ -1,7 +1,7 @@
 {
   "name": "zoo-ui",
   "version": "1.0.0",
-  "description": "",
+  "description": "React组件库",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",

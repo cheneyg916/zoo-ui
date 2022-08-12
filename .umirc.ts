@@ -1,8 +1,8 @@
 import { defineConfig } from 'dumi';
 
 // 此处更换为自己的仓库名
-let base = '/react-ui-library-tutorial';
-let publicPath = '/react-ui-library-tutorial/';
+let base: string | undefined = '/zoo-ui';
+let publicPath: string | undefined = '/zoo-ui/';
 
 if (process.env.SITE_BUILD_ENV === 'PREVIEW') {
   base = undefined;
